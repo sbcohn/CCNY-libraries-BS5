@@ -1,0 +1,254 @@
+
+
+
+
+
+/* =========================================================
+   GENERAL / GLOBAL
+   ========================================================= */
+
+title { display: none; }
+
+body {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  font-size: 17px;
+  color: #000;
+}
+
+/* link colors */
+a {
+  color: blue;
+}
+a:hover,
+a:visited,
+a:focus {
+  color: #2200cc;
+}
+
+#blogtext {
+  font-size: 16px;
+}
+
+/* =========================================================
+   BRAND COLORS
+   ========================================================= */
+
+.container-grey    { background-color: #77787C; }
+.container-purple  { background-color: #7D55C7; }
+.container-ltgrey  { background-color: #e3e4e4; }
+.container-gold    { background-color: #f3cf45; }
+.container-yellow  { background-color: #FFFF00; }
+.container-head    { background-color: #75767A; }
+.footer-new        { background-color: #111; color: #fff; }
+
+/* horizontal color bars */
+#purple-line-narrow,
+#purple-line-wide,
+#header {
+  background-color: #7D55C7;
+}
+#purple-line-narrow { height: 5px; }
+#purple-line-wide   { height: 20px; }
+
+#gold-line-narrow   { height: 5px;  background-color: #f3cf45; }
+#ltgrey-line-wide   { height: 20px; background-color: #e3e4e4; }
+#dkgrey-line-narrow { height: 5px;  background-color: #75767A; }
+
+/* =========================================================
+   HEADER ELEMENTS
+   ========================================================= */
+
+#librarieslogo { padding-top: 30px !important; }
+
+
+#header {
+   text-align: center;
+  
+  }
+
+/* jumbo image header */
+#jumbo {
+  background-image: url("https://libapps.s3.amazonaws.com/accounts/186235/images/header.jpg");
+  background-size: cover;
+  padding-top: 20px;
+}
+
+/* misc spacing */
+#boxes, #news { padding-top: 20px; }
+#quickclicks  { padding-bottom: 20px; }
+#CUNY, #CCNYlogo { padding-bottom: 20px; }
+
+#custom-header, #footer { width: 100%; }
+
+/* =========================================================
+   PANELS (Bootstrap-style)
+   ========================================================= */
+
+.panel-transparent       { background: none !important; }
+.panel-transparent .panel-body {
+  background: rgba(255,255,255,0.9) !important;
+}
+
+.panel-heading-custom {
+  background: #e3e4e4 !important;
+  text-align: center;
+}
+.panel-heading-custom a { color: #000 !important; }
+
+.panel-body-custom {
+  background: #7D55C7 !important;
+  text-align: center;
+  font-size: 18px;
+}
+.panel-body-custom a {
+  color: #fff !important;
+}
+.panel-body-custom a:hover {
+  color: #000 !important;
+}
+
+.panel-body-gold {
+  background: #f3cf45 !important;
+  text-align: center;
+  font-size: 18px;
+}
+.panel-body-gold a {
+  color: #000 !important;
+}
+.panel-body-gold a:hover {
+  color: #fff !important;
+}
+
+
+
+/* =========================================================
+   NAVBAR (Bootstrap 5 compatible)
+   ========================================================= */
+
+.navbar {
+  margin-bottom: 0 !important;
+  border-radius: 0 !important;
+  border: 0 !important;
+  font-size: 20px;
+}
+
+.navbar-expand-lg {
+  background-color: #e3e4e4 !important;
+  border-color: #F9F9F9 !important;
+}
+
+.navbar-expand-lg .navbar-brand {
+  color: #000 !important;
+}
+.navbar-expand-lg .navbar-brand:hover {
+  color: #77787c !important;
+}
+
+.navbar-expand-lg .navbar-nav > li > a {
+  color: #000 !important;
+}
+.navbar-expand-lg .navbar-nav > li > a:hover,
+.navbar-expand-lg .navbar-nav > li > a:focus,
+.navbar-expand-lg .navbar-nav > .active > a {
+  background-color: #77787c !important;
+  color: #fff !important;
+}
+
+.dropdown-menu {
+  background-color: #fff !important;
+}
+.dropdown-menu > li > a {
+  color: #000 !important;
+  font-size: 18px !important;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #77787c !important;
+}
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+  background-color: #7D55C7 !important;
+  color: #fff !important;
+}
+
+/* =========================================================
+   BUTTONS — OneSearch
+   ========================================================= */
+
+.btn-search {
+  color: #fff;
+  background-color: #7D55C7;
+  border-color: #7D55C7;
+}
+.btn-search:hover,
+.btn-search:focus,
+.btn-search:active,
+.btn-search.active {
+  background-color: #77787c;
+  border-color: #77787c;
+}
+
+.btn-search.disabled,
+.btn-search[disabled],
+fieldset[disabled] .btn-search {
+  background-color: #7D55C7;
+  border-color: #7D55C7;
+}
+
+.btn-search .badge {
+  color: #7D55C7;
+  background-color: #fff;
+}
+
+/* =========================================================
+   SPRINGSHAre / LIBGUIDES TWEAKS
+   ========================================================= */
+
+#s-lg-guide-header-search,
+#s-lib-footer-public,
+#s-lib-bc-site,
+#s-lib-bc-group,
+#s-lg-hp-nav-bottom .clearfix {
+  display: none;
+}
+
+#s-lg-public-skiplink {
+  top: -70px;
+}
+
+/* tabs */
+#s-lg-tabs-container .nav-pills > li > a:hover,
+#s-lg-tabs-container .nav-pills > li > button:hover {
+  border-radius: 0;
+  color: #fff;
+}
+
+#s-lg-tabs-container .nav-pills > li > a,
+#s-lg-tabs-container .nav-pills > li > button {
+  border-bottom-color: #77787c;
+}
+
+#s-lg-guide-tabs { font-size: 16px; }
+
+/* A–Z */
+#s-lg-az-results .s-lg-az-result-title {
+  font-size: 16px;
+}
+
+/* Box titles */
+.s-lib-box .s-lib-box-title {
+  font-size: 16px;
+}
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+#copyright { color: #fff; text-align: right; }
+#address   { color: #fff; text-align: left; }
+
+
+
+
+
